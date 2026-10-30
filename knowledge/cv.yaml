@@ -1,0 +1,192 @@
+person:
+  name: Jordi Adrián Mota Sánchez
+  headline: Full Stack Developer y Tech Lead
+  location: CDMX, México
+  email: jordimota1612@gmail.com
+
+sections:
+  - id: perfil
+    title: Perfil profesional
+    keywords:
+      - perfil
+      - resumen
+      - trayectoria
+      - quien
+      - presentación
+      - ingeniero
+      - full stack
+      - tech lead
+      - ciberseguridad
+      - seguridad
+    text: >
+      Jordi Adrián Mota Sánchez es Ingeniero en Computación por la UNAM y
+      Full Stack Developer con experiencia liderando productos de punta a punta,
+      desde el diseño de arquitectura hasta el despliegue en producción.
+      Está especializado en React, Node.js, FastAPI y PostgreSQL, y tiene un
+      Diplomado en Ciberseguridad de la UNAM. Ha escalado sistemas críticos
+      para empresas de telecomunicaciones: CRMs, portales de clientes,
+      control de inventarios y agentes de IA en producción. Vive en CDMX.
+
+  - id: rocketel
+    title: Rocketel, CTO y Full Stack Developer (2024-actualidad)
+    keywords:
+      - rocketel
+      - cto
+      - actualidad
+      - sim
+      - sucursales
+      - crm
+      - portal
+      - call center
+      - inventario
+      - rag
+      - vultr
+      - nginx
+      - produccion
+      - telecomunicaciones
+      - agente
+      - experiencia
+      - proyecto
+      - proyectos
+      - ia
+      - inteligencia
+      - api
+      - despliegue
+      - porcentaje
+      - seguridad
+      - servidores
+    text: >
+      Desde 2024 Jordi es CTO y Full Stack Developer en Rocketel.
+      Lideró el diseño, la construcción y el lanzamiento de un ecosistema
+      para venta de SIMs en tiendas, que creció de 15 a más de 30 sucursales
+      activas. Diseñó y desarrolló de punta a punta un CRM y portal de clientes
+      (React en frontend, Node.js y FastAPI en backend, PostgreSQL) con estados
+      de gastos, gráficas de indicadores, grabaciones de llamadas y reportes
+      descargables, llevado a producción. Desarrolló e implementó en producción
+      un agente de IA para atención a clientes en call center, que redujo la
+      carga operativa del equipo de soporte; el CV no da un porcentaje ni un
+      número de esa reducción. Dirigió una plataforma de IA para la operación
+      de telecomunicaciones, con alertas automáticas, levantamiento de tickets,
+      monitoreo en tiempo real, ejecución de configuraciones, escalamiento de
+      incidencias y un agente RAG de consulta interna para el equipo técnico.
+      Diseñó el sistema de inventario de SIMs con trazabilidad en tiempo real.
+      Administra servidores en Vultr y Google Cloud Platform con Nginx, y
+      despliega sitios con formularios, pasarelas de pago y alta disponibilidad.
+      Aplica principios de ciberseguridad en la arquitectura, el manejo de
+      credenciales y la configuración de servidores.
+
+  - id: unam-puntos
+    title: Colaboración técnica en la UNAM (2023)
+    keywords:
+      - unam
+      - puntos
+      - "2023"
+      - colaborador
+      - incidencias
+      - antes
+      - anterior
+      - empleo
+      - empresa
+    text: >
+      En 2023 Jordi fue colaborador técnico en el sistema institucional de
+      puntos de la UNAM. Corrigió incidencias y mejoró componentes de UI para
+      aumentar la precisión y prevenir errores de captura. El CV no describe
+      otro empleo anterior a Rocketel.
+
+  - id: educacion
+    title: Educación
+    keywords:
+      - educacion
+      - estudios
+      - estudio
+      - universidad
+      - carrera
+      - ingenieria
+      - unam
+      - diplomado
+      - ciberseguridad
+      - pentest
+      - forense
+    text: >
+      Ingeniería en Computación en la Universidad Nacional Autónoma de México
+      (UNAM), concluida. Diplomado en Ciberseguridad en la UNAM, concluido,
+      con análisis de vulnerabilidades, pentest y forense digital.
+
+  - id: stack
+    title: Stack y habilidades
+    keywords:
+      - stack
+      - tecnologias
+      - habilidades
+      - react
+      - node
+      - fastapi
+      - python
+      - postgresql
+      - laravel
+      - java
+      - supabase
+      - gcp
+      - git
+      - rag
+      - scrum
+      - agile
+      - ia
+      - inteligencia
+      - artificial
+    text: >
+      Frontend: React, JavaScript (ES6+), HTML5 y CSS3.
+      Backend: Node.js, FastAPI, Python, Laravel y Java.
+      Bases de datos: PostgreSQL y Supabase.
+      Nube e infraestructura: Google Cloud Platform, Vultr VPS, Nginx, Linux,
+      Bash, SSH y Git/GitHub.
+      IA: agentes LLM, RAG y flujos asistidos por IA, con sistemas ya operados
+      en producción en Rocketel (agente de call center y agente RAG interno).
+      Ciberseguridad: análisis de vulnerabilidades, respuesta a incidentes,
+      pentest y forense digital.
+      Metodologías: Agile/Scrum, Kanban y Scaling Up.
+
+  - id: idiomas
+    title: Idiomas
+    keywords:
+      - idioma
+      - ingles
+      - english
+      - espanol
+      - idiomas
+    text: >
+      Español nativo. Inglés intermedio.
+
+  - id: contacto
+    title: Contacto
+    keywords:
+      - contacto
+      - correo
+      - email
+      - telefono
+      - celular
+      - whatsapp
+      - ubicacion
+      - cdmx
+      - donde
+    text: >
+      Correo: jordimota1612@gmail.com.
+      El teléfono no se comparte: es información sensible.
+      Ubicación: CDMX, México.
+
+limits: >
+  El CV solo documenta dos experiencias: Rocketel (CTO y Full Stack, 2024 a la
+  actualidad) y la colaboración técnica en el sistema de puntos de la UNAM en
+  2023. No aparecen otros empleadores, ni salario, ni el nombre de clientes
+  finales, ni proyectos fuera de los descritos. Del call center solo consta
+  que redujo la carga operativa, sin cifra y sin adjetivos de magnitud.
+  Jordi no dejó Rocketel: el puesto es de 2024 a la actualidad. El CV no
+  menciona AWS, Docker, Kubernetes ni React Native. El agente de IA de call
+  center es de Rocketel y no tiene año de lanzamiento. El sistema de puntos
+  de la UNAM en 2023 fue corrección de incidencias y mejoras de UI; no incluye
+  ese agente. No hay dirección particular, RFC ni promedio de graduación.
+  Usar Google Cloud Platform o Vultr no significa haber sido empleado de
+  Google ni de Vultr. El teléfono no se comparte porque es información
+  sensible. Si la pregunta pide un dato que no está, hay que decirlo y no
+  inferirlo. Si une dos hechos que el CV mantiene separados, hay que
+  separarlos.
