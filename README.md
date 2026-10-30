@@ -70,7 +70,9 @@ En el formulario: API key vacía, modelo vacío, estado de conversación **Repro
 
 ## Despliegue
 
-Render, plan Free, runtime Docker, servicio `cv-jordi`. Está descrito en `render.yaml`. La URL pública va aquí cuando el servicio esté en línea.
+Render, plan Free, runtime Docker, servicio `cv-agent`. Está descrito en `render.yaml`. URL pública: https://cv-agent-qmvs.onrender.com
+
+El plan Free duerme el proceso a los ~15 minutos sin tráfico. La primera petición después de eso tarda en levantar el contenedor (a veces cerca de un minuto). Las siguientes responden normal.
 
 
 | Variable           | Dónde                       | Qué es                             |
@@ -81,9 +83,7 @@ Render, plan Free, runtime Docker, servicio `cv-jordi`. Está descrito en `rende
 | `PORT`             | Lo pone Render              | Uvicorn escucha ahí.               |
 
 
-El `Dockerfile` copia solo `app/` y `knowledge/`. `.env`, `.venv` y el PDF del CV no salen de la máquina.
-
-El plan Free apaga el proceso a los ~15 minutos sin tráfico. El primer request después de eso tarda en levantar el contenedor. Durante la revisión hay que pegarle a `/health` cada 5 minutos (UptimeRobot o cron-job.org).
+El `Dockerfile` copia solo `app/` y `knowledge/`. `.env`, `.venv` y el PDF del CV no salen de la máquina. Durante la evaluación, un monitor a `/health` cada 5 minutos (UptimeRobot o cron-job.org) evita ese arranque en frío.
 
 ## Cómo lo corro aquí
 
